@@ -1,9 +1,9 @@
 const employee1 = {
   name: "John",
   age: 20,
-  scores: {},
+  // scores: {},
 };
-const result1 = employee1.scores.english;
+const result1 = employee1.scores?.english;
 // const result1 = employee1.scores;
 console.log(result1);
 
